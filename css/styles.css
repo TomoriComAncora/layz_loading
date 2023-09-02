@@ -1,3 +1,43 @@
-h1 {
-  color: #f00;
+/* geral */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title{
+    text-align: center;
+    padding: 2rem;
+    background-color: #333;
+    color: #fefefe;
+}
+
+body{
+    background: #444;
+}
+
+/* container img */
+.container{
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.container-image{
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #333;
+}
+
+.container-image img{
+    display: block;
+    margin: 2rem auto 1rem;
+    width: 1000px;
+    height: 600px;
+}
+
+.container-image p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
 }
